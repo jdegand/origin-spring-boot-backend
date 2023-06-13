@@ -78,7 +78,7 @@ npm start
 - Don't think using an entity makes sense since data is not saved to a database 
 - Using DTO vs entity - not much practical difference - although I think it was a bigger issue in the past
 - Didn't add setters to DTOs - necessary for more complicated testing logic ?
-- I gitignored the maven-wrapper.jar - debatable if it should be ignored or not - The mvnw / mvnw.cmd scripts will downloaded a maven wrapper if it is missing
+- I gitignored the maven-wrapper.jar - debatable if it should be ignored or not - The mvnw / mvnw.cmd scripts will download a maven wrapper if it is missing
 
 ## Improvements
 
