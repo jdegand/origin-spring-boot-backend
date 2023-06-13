@@ -78,6 +78,7 @@ npm start
 - Don't think using an entity makes sense since data is not saved to a database 
 - Using DTO vs entity - not much practical difference - although I think it was a bigger issue in the past
 - Didn't add setters to DTOs - necessary for more complicated testing logic ?
+- I gitignored the maven-wrapper.jar - debatable if it should be ignored or not - The mvnw / mvnw.cmd scripts will downloaded a maven wrapper if it is missing
 
 ## Improvements
 
@@ -132,3 +133,7 @@ npm start
 - [Free Formatter](https://www.freeformatter.com/json-escape.html#before-output) - escape json
 - [Stack Overflow](https://stackoverflow.com/questions/72788387/mockmvc-contenttype-is-undefined-in-result-action) - mockMvc contentType is undefined in result action
 - [Medium](https://medium.com/@karlrombauts/setting-up-unit-testing-for-java-in-vs-code-with-maven-3dc75579122f) - setting up unit testing for java in vs code with maven
+- [Stack Overflow](https://stackoverflow.com/questions/51792830/what-files-in-a-maven-project-should-be-committed-to-git) - maven gitignore
+- [Stack Overflow](https://stackoverflow.com/questions/73180793/should-i-gitignore-mvn-folder-in-a-spring-boot-project) - should i gitignore mvn folder in a spring boot project
+- [Gist](https://gist.github.com/fedir/cd58012d42c8c1edbb3fff611de6c2f6) - java gitignore
+- [Github](https://ucsb-cs48.github.io/javatopics/gitignore_maven/) - gitignore maven
